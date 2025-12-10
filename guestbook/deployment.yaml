@@ -15,3 +15,5 @@ spec:
       containers:
       - name: guestbook
         image: busybox:latest 
+        imagePullPolicy: IfNotPresent 
+        command: ["sleep", "36000"]
